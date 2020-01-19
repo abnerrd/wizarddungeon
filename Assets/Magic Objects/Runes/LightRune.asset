@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c32bf95949a85f4e9c5fd9ee0955020, type: 3}
+  m_Name: LightRune
+  m_EditorClassIdentifier: 
+  RuneAttribute: 5
+  RuneStatistic: 4
+  PrimaryProperty:
+    Attribute: 0
+    Delivery: 3
+    AttributeStatistic: -1
+    ActivateCount: 1
+    SpawnAmount: 1
+    SpawnDelay: 0
+  PrimarySpellEffects:
+  - {fileID: 11400000, guid: f1968116235f7444d8e60be904bccc0b, type: 2}
+  SecondaryProperty:
+    Attribute: 5
+    Delivery: 0
+    AttributeStatistic: 4
+    ActivateCount: 0
+    SpawnAmount: 0
+    SpawnDelay: 0
+  SecondarySpellEffects: []
